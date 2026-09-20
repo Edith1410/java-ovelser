@@ -9,3 +9,6 @@ header {
 body {
   background-color: antiquewhite;
 }
+a {
+  text-decoration: none;
+}

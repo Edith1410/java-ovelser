@@ -1,3 +1,4 @@
+// drikkevare tjek
 function tjekAlko(billede) {
   let type = billede.alt;
   if (type === "øl" || type === "snaps") {
@@ -7,6 +8,7 @@ function tjekAlko(billede) {
   }
 }
 
+// sig goddag
 let time = new Date().getHours();
 
 if (time >= 5 && time < 10) {
@@ -18,3 +20,7 @@ if (time >= 5 && time < 10) {
 } else if (time >= 24 && time < 5) {
   console.log("Godnat");
 }
+
+// gæt et tal
+document.querySelector("#tal").value;
+Math.round(Math.random() * 10);
